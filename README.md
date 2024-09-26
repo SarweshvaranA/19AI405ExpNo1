@@ -1,14 +1,17 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
 
-<h3>AIM:</h3>
+## AIM
+
 <br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
 <br>
-<h3>Theory</h3>
+
+## Theory
 <h3>Medicine prescribing agent:</h3>
 <p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
 <hr>
-<h3>PEAS DESCRIPTION:</h3>
+
+## PEAS DESCRIPTION
 <table>
   <tr>
     <td><strong>Agent Type</strong></td>
@@ -40,7 +43,8 @@
 
 <h3>Developed by SARWESHVARAN A</h3>
 <h3>Register Number 212223230198</h3>
-<h3>PROGRAM</h3>
+
+## PROGRAM
 
 ```python
 
@@ -94,12 +98,12 @@ agent.perform_action("nothing")
 agent.print_status()
 
 ```
-<h3>OUTPUT</h3>
+## OUTPUT
 ![PEAS output](https://github.com/user-attachments/assets/23dc289e-8043-4e00-815a-e71fc25a2190)
 
 
 
-<h3>Result:</h3>
+## RESULT
 Thus the Developing AI Agent with PEAS Description was implemented using python programming.
 
 
